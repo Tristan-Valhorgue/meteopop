@@ -1,4 +1,4 @@
-/* --- Importation de la police personnalisée --- */
+
 @font-face {
     font-family: 'Civane';
     src: url('assets/fonts/civane/Civane-Regular.ttf') format('truetype');
@@ -15,11 +15,11 @@
 body {
     background-color: #ffffff;
     color: #3d106d;
-    font-family: 'Civane', sans-serif; /* On applique la police Civane ici */
+    font-family: 'Civane', sans-serif; 
     line-height: 1.6;
 }
 
-/* --- Navigation --- */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -43,10 +43,9 @@ nav a {
     font-weight: bold;
 }
 
-/* --- Grille Artistes (Mobile-First) --- */
 .artist-grid {
     display: grid;
-    grid-template-columns: 1fr; /* 1 colonne par défaut */
+    grid-template-columns: 1fr; 
     gap: 20px;
     padding: 20px;
 }
@@ -58,10 +57,10 @@ nav a {
     border-radius: 8px;
 }
 
-/* --- Media Query pour Ordinateur --- */
+
 @media (min-width: 768px) {
     .artist-grid {
-        grid-template-columns: repeat(3, 1fr); /* 3 colonnes sur PC */
+        grid-template-columns: repeat(3, 1fr); 
     }
 }
 
